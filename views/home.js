@@ -13,8 +13,8 @@ export default function Home() {
       <Stack.Screen name="Acount" component={Acount} />
       <Stack.Screen name="Home Detail" component={Homedetails} />
       <Stack.Screen name="Login" component={Login} />
-      <Stack.Screen name="Sign Up" component={Signup} />
-      <Stack.Screen name="Forgot Password" component={Forgotpassword} />
+      <Stack.Screen name="Signup" component={Signup} />
+      <Stack.Screen name="Forgotpassword" component={Forgotpassword} />
     </Stack.Navigator>
     );
   }

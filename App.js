@@ -14,7 +14,7 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator initialRouteName='Home'>
         <Tab.Screen name="Home" component={Home}/>
-        <Tab.Screen name="Meetups" component={Meetups}/>
+        <Tab.Screen name="Explore" component={Meetups}/>
         <Tab.Screen name="Messanger" component={Messanger}/>
         <Tab.Screen name="Resources" component={Assistance}/>
       </Tab.Navigator>
