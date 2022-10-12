@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native';
-import { AysncStorage } from '@react-native-community/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { TextInput, Button, Alert } from "@react-native-material/core";
 import { fireDB } from "../firebase.js"
 import { useEffect, useState } from 'react';
