@@ -11,6 +11,7 @@ const dbRef = fireDB.collection('users')
 export default function Signup({navigation}) {
   const [fdata, setFdata] = useState({});
 
+
   const onSubmit = () => {
     const hash= CryptoJS.HmacSHA1(fdata.password, salt).toString()
       if (hash) {

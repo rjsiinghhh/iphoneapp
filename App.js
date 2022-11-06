@@ -10,9 +10,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator initialRouteName='Home'>
-        <Tab.Screen name="Home" component={Home}/>
-        <Tab.Screen name="Messanger" component={Messanger}/>
+        <Tab.Screen name="Home Screen" options={{headerShown: false}} component={Home}/>
         <Tab.Screen name="Explore" component={Assistance}/>
+        <Tab.Screen name="Messanger" component={Messanger}/>
       </Tab.Navigator>
     </NavigationContainer>
     
